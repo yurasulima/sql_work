@@ -1,5 +1,5 @@
 
-INSERT INTO worker (name, salary, technical_level, birthday) VALUES
+INSERT INTO worker (name, salary, level, birthday) VALUES
     ('Dima', 800, 'Trainee', '2000-07-05'),
     ('Daniel', 1200, 'Junior', '2001-03-01'),
     ('Vadim', 1500, 'Middle', '2002-04-01'),
