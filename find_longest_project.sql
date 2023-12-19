@@ -1,1 +1,3 @@
-SELECT id AS project_id, DATEDIFF('MONTH', MIN(start_date), MAX(finish_date)) FROM project;
+SELECT ID AS project_id, DATEDIFF('MONTH', MIN(start_date), MAX(finish_date))
+FROM project
+GROUP BY ID;
